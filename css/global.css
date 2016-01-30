@@ -1,0 +1,94 @@
+body {
+    font-size: 14px;
+    font-family: Georgia, Times New Roman, serif;
+    background: #1f1f1f;
+    color: #bbb;
+}
+h1 {
+    font-size: 16pt;
+    font-weight: lighter;
+}
+a {
+    color: #fff;
+}
+#total {
+    font-size: 12pt;
+}
+#total, #price, #priceb, #pricec, #priced, #pricee, #pricef, #pricez {
+    text-align: right;
+    width: 60px;
+}
+#quoteme input {
+    background: transparent;
+    color: #ddd;
+    font-family: Georgia;
+    border: 0px solid #fff;
+    margin-bottom: 20px;
+}
+#quoteme label {
+    float: left;
+    display: block;
+    padding-top: 10px;
+    display: block;
+    color: #fff;
+    font-family: Georgia;
+    width: 340px;
+}
+#contenta {
+    padding:1px 0px 20px 0px;
+    display: block;
+    width:400px;
+    text-align: left;
+    font-size: 12pt;
+}
+.pricepara {
+    text-align: right; font-size: 14pt;
+}
+.pricepara #totalprice {
+    padding-top: 0px;
+    margin-top: 0px;
+    border: 0px solid #000;
+    font-size: 14pt;
+    font-weight: bold;
+}
+#total {
+    font-family: 'Georgia', arial;
+    width: 150px;
+    border: 0px solid #000;
+    background: transparent;
+    font-size: 32px;
+    color: #fff;
+}
+#quoteme {
+    width: 400px;
+    display: block;
+    background: #000;
+    float :left;
+    clear: both;
+    padding: 30px 20px 10px 30px;
+}
+#slider, #sliderb, #sliderc, #sliderd, #slidere {
+    width: 400px;
+}
+input#submitbtn {
+    display: block;
+    width: 200px;
+    height: 38px;
+    margin: 10px 0px 10px 0px;
+    background: #ffe906;
+    color: #000;
+    font-size: 14pt;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-topright: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    -moz-border-radius-bottomright: 3px;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-top-right-radius: 3px;
+    -webkit-border-bottom-right-radius: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+}
+p {
+    font-size: 9pt;
+    line-height: 16pt;
+    margin-top: 20px;
+}
