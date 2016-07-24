@@ -25,6 +25,7 @@ a {
     border: 0px solid #fff;
     margin-bottom: 20px;
 }
+
 #quoteme label {
     float: left;
     display: block;
@@ -91,4 +92,19 @@ p {
     font-size: 9pt;
     line-height: 16pt;
     margin-top: 20px;
+}
+#details {
+    background: transparent;
+    color: #ddd;
+    font-family: Georgia;
+    border: 0px solid #fff;
+    margin-bottom: 20px;
+}
+#porez1 {
+    background: transparent;
+    color: #ddd;
+    font-family: Georgia;
+    border: 0px solid #fff;
+    margin-bottom: 40px;
+
 }
