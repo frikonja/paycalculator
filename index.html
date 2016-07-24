@@ -1,9 +1,11 @@
 <!DOCTYPE HTML>
 <html class="no-js rwd-imgs-lrg" lang="en">
-    <head><meta http-equiv="content-type" content="text/html; charset=UTF-8"><meta charset="utf-8">
+    <head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8"><meta charset="utf-8">
         <title>Izračun plaće</title><meta name="description" content="HTML Template Slicer - Robust, Pixel Perfect Template creation, HTML / CSS / jQuery, Responsive Css"><meta name="author" content="HTML Template Slicer">
         <link rel="stylesheet" href="css/global.css">
         <link rel="stylesheet" href="css/jquery-ui.css">
+		<link href='https://fonts.googleapis.com/css?family=Raleway:400, 600' rel='stylesheet' type='text/css'>
         <script src='js/jquery-1.6.2.min.js'>
         </script>
         <script src='js/myscript.js'>
@@ -12,65 +14,112 @@
         </script>
     </head>
     <body>
-
-        <div class="wrappernew">
-
-            <h1>Izračun plaće</h1>
-            <div class="colThree" style="margin: 0px 0 20px 0px; ">
-                <div id="contenta">
-                        <p class="pricepara">
-                            Brutto2 KN:
-                            <label for="total" id="totalprice" style="">
+	
+	<div class="jumbotron">
+		<div class="container">  
+			<div class="main">
+				<h1>Izračun plaće</h1>
+				<div class="colThree">
+					<div id="contenta">
+                        <div class="pricepara">
+                            Brutto2
+                            <label for="total" id="totalprice" size="10">
                             </label> 
-                            <input name="totalprice" type="text" id="total" disabled="disabled" style="" />
-                        </p>
+                            <input name="totalprice" type="text" id="total" size ="7" disabled="disabled"/>KN
+                        </div>
                         
-                        <div id="quoteme">
+                        <div class="quoteme">
 
                             <div id="slider">
                             </div>
                             <label for="amount">
                             </label>
-                            <input name="one" style="width: 300px;" type="text" id="amount" disabled />
+                            <input name="one" " type="text" id="amount" size="10" disabled  />
 
-                            <label for="price">
-                            </label>
-                         <!--   <input name="onea" type="text" id="price" value= disabled="disabled" /> -->
-                            <input name="onea" type="text" id="price" value= "" /> 
-			    KN
+                            <label for="price"></label>
+                   
+                            <input name="onea" type="text" id="price" value= "" size="7" />
+						   KN
 
-                            <div id="sliderb">
+                         <div id="sliderb">
                             </div>
                             <label for="amountb">
                             </label>
-                            <input name="two" style="width: 300px;"  type="text" id="amountb" disabled />
+                            <input name="two" type="text" id="amountb" size="10" disabled />
 
                             <label for="priceb">
                             </label>
                            <!-- <input name="twoa" type="text" id="priceb" value= disabled="disabled" /> -->
-                            <input name="twoa" type="text" id="priceb" value= "" />
-			    KN
-                	</div>
-			<div id="details" > 
-			Porezna stopa 12%:
-			<label for="razred1" /> 
-			<input name="porez1" style="width: 200px;" type="text" id="razred1" disabled />
-			Porezna stopa 25%:
-                        <label for="razred2" />
-                        <input name="porez2" style="width: 200px;" type="text" id="razred2" disabled />
-			Porezna stopa 40%:
-                        <label for="razred3" />
-                        <input name="porez3" style="width: 200px;" type="text" id="razred3" disabled />
-			Prirez:
-                        <label for="prirez" />
-                        <input name="prirez" style="width: 200px;" type="text" id="prirez" disabled />
-			Mirovinsko: 
-                        <label for="mirovinsko" />
-                        <input name="mirovinsko" style="width: 200px;" type="text" id="mirovinsko" disabled />
+                            <input name="twoa" type="text" id="priceb" size="7" value= "" />
+						KN
+						</div>
+					</div>
+				</div>
 			</div>
-            	</div>
+		</div>
+	</div>
+	
+	<div class="izracun">
+      <div class="container">
+	  
+		<table class="table">
+		<tbody>
+			<tr>
+				<th scope="row">Porezna stopa 12%:</th>
+					<td>
+					<label for="razred1" /> 
+					<input name="porez1" type="text" id="razred1" disabled />
+					</td>
+			</tr>
+			
+			<tr>
+				<th scope="row">Porezna stopa 25%:</th>
+					<td>
+					<label for="razred2" />
+                       <input name="porez2"  type="text" id="razred2" disabled />
+					</td>
+			</tr>
+			
+			<tr>
+				<th scope="row">Porezna stopa 40%:</th>
+					<td>
+					<label for="razred3" />
+                    <input name="porez3"  type="text" id="razred3" disabled />
+					</td>
+			</tr>
+			
+			<tr>
+				<th scope="row">Prirez:</th>
+					<td>
+					<label for="prirez" />
+                        <input name="prirez"  type="text" id="prirez" disabled />
+					</td>
+			</tr>
+			
+			<tr>
+				<th scope="row">Mirovinsko: </th>
+					<td>
+					<label for="mirovinsko" />
+                        <input name="mirovinsko"  type="text" id="mirovinsko" disabled />
+					</td>
+			</tr>
 		
-          </div>
-        </div>
-    </body>
+			
+		</tbody>
+		</table>
+	
+		</div>
+	</div>
+	
+	<div class="clearfix"></div>
+    </div>
+	
+	<div class="footer">
+      <div class="container">
+        <p>&copy; Frikonja</p>
+      </div>
+    </div>
+	
+	
+	 </body>
 </html>
